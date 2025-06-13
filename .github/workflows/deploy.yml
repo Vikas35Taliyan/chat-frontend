@@ -31,6 +31,6 @@ jobs:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: dist
 
-      # Optional: run tests if you have them
+      # Optional: run tests if you have
       # - name: Run tests
       #   run: npm run test
