@@ -28,7 +28,7 @@ jobs:
       - name: Build app for github pages
         uses: peaceiris/actions-gh-pages@v3
         with:
-          github_token: ${{ secret.GITHUB_TOKEN }}
+          github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: dist
 
       # Optional: run tests if you have them
